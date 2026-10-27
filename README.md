@@ -1,5 +1,5 @@
 # parcial2
-Parcial 2 de Programación ll, Sistema de batallas entre criaturas.
+Parcial 2 de Programación ll, Sistema de batallas.
 
 ## Integrantes
 
@@ -8,7 +8,7 @@ Parcial 2 de Programación ll, Sistema de batallas entre criaturas.
 
 ## Diagrama UML
 
-El diagrama muestra los atributos, los metodos principales y las relaciones del proyecto. Se omiten constructores, getters y setters para facilitar su lectura.
+
 
 ```mermaid
 classDiagram
