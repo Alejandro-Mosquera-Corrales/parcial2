@@ -79,6 +79,9 @@ public abstract class Criatura {
      * Lo usan las subclases dentro de defender().
      */
     protected void recibirDano(int cantidad) {
+        if (cantidad < 0) {
+            throw new IllegalArgumentException("El dano no puede ser negativo");
+        }
         salud = Math.max(0, salud - cantidad);
     }
 
